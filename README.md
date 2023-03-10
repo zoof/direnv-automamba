@@ -3,7 +3,7 @@
 Use `direnv` to automatically activate mamba environment
 
 Tested with `fish` shell:
-* requires `.envrc` file in the directory of activations<br>
+* requires `.envrc` file in the directory of activations with format:<br>
 ```
 layout mamba [environment-name]
 ```
