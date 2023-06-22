@@ -13,7 +13,6 @@ layout_mamba() {
     micromamba activate `grep name: environment.yml | sed -e 's/name: //'`
   else
 	# activate base environment
-	#(>&2 /dev/null);
     micromamba activate base;
   fi;
 }
